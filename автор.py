@@ -13,20 +13,20 @@ for i in range(len(aut)):
     str = p.split()
 
 
+
     for j in range(len(str)):
         for l in range(len(imena)):
 
-            if str[j] == imena[l]:
-                f = 1
+             if str[j] == imena[l]:
+                f=1
 
 
-                imya = str[j] + str[j + 1]
+                imya=str[j]+str[j+1]
                 break
+        if (len(imya)!=0):
             break
-        break
+
 print(imya)
-
-
 
 
 
